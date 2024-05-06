@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/b/page.tsx",
+    "src/app/b/layout.tsx",
+    "src/app/d/layout.tsx",
+    "src/app/d/page.tsx",
+    "src/app/layout.tsx",
+    "src/app/page.tsx",
+    "src/components/mainCom/Footer.tsx",
+    "src/components/mainCom/Nav.tsx",
+    "src/components/mainCom/ScrollAni.tsx",
+    "src/components/routerCom/Askarr.tsx",
+    "src/components/routerCom/AskarrCard.tsx",
+    "src/components/routerCom/Bodcast.tsx",
+    "src/components/routerCom/Doaa.tsx",
+    "src/components/routerCom/DoaCard.tsx",
+    "src/components/routerCom/Homee.tsx",
+    "src/data/data.tsx",
+    "build/types/**/*.ts",
+    "./dist/types/**/*.ts"
+, "src/app/a/[a]/page.tsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
